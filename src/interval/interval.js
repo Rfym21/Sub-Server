@@ -12,7 +12,6 @@ const Interval = async () => {
 
     // 定时向订阅获取代理 => Si
     getSub('https://linuxdo.dingyue.cc.ua/v2ray', 1000 * 60 * 60 * 1, "Si.txt")
-
     // 定时向订阅获取代理 => Zn
     // getSub('https://proxy.v2gh.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub', 1000 * 60 * 60 * 1, "Zn.txt")
 
